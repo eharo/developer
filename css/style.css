@@ -6770,3 +6770,51 @@ section.parallax-section .section-title:before {
 		background-position: center;
 	}
 }
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FAC921;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ebba1c;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #ebba1c;
+}
+
+::-webkit-scrollbar-track {
+    background: #2C2D32;
+    border: 0px none #2C2D32;
+    border-radius: 53px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #2a2a2e;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #2a2a2e;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after {
+    background: #1e2a40;
+}
